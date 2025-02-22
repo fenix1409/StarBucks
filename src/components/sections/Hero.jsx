@@ -21,7 +21,7 @@ const Hero = () => {
         }
     ]
     return (
-        <div className='flex items-center justify-between max-sm:flex-col-reverse'>
+        <section className='flex items-center justify-between max-sm:flex-col-reverse'>
             <div className="w-[574px] max-sm:w-[335px]">
                 <h1 className='text-[80px] max-sm:text-[48px] leading-[87px] max-sm:leading-[52px] font-extrabold text-white'>New Cafe by <span className='text-[#237249]'>StarBucks</span></h1>
                 <p className='text-[20px] max-sm:text-[12px] leading-[32px] max-sm:leading-[19px] text-[#D9D9D9] my-[54px] max-sm:my-[36px]'>Have time to buy the most harmonious drinks in the new Starbucks coffee and don't forget about the discount!</p>
@@ -39,8 +39,8 @@ const Hero = () => {
                 </ul>
             </div>
             <img src={Image} alt="image" width={472} height={680} className='relative max-sm:hidden' />
-            <img src={Image} alt="image" width={472} height={680} className='relative sm:block mb-[26px]' />
-        </div>
+            <img src={Image} alt="image" width={472} height={680} className='relative sm:hidden mb-[26px]' />
+        </section>
     )
 }
 

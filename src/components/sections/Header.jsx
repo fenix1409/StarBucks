@@ -31,7 +31,7 @@ const Header = () => {
                     <Link key={item.id} className="text-[19px] leading-[23px] text-[#D9D9D9]" to={item.path}>{item.name}</Link>
                 ))}
             </ul>
-            <button className='max-sm:block' onClick={() => setIsModalOpen(true)}><MoreIcon/></button>
+            <button className='sm:hidden' onClick={() => setIsModalOpen(true)}><MoreIcon/></button>
             {isModalOpen && (
                 <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
                     <div className="bg-white p-6 rounded-lg shadow-lg transform transition-transform duration-300">

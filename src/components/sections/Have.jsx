@@ -26,8 +26,8 @@ const Have = () => {
         }
     ]
     return (
-        <section className='mt-[60px] mb-[100px] max-sm:px-[80px] max-sm:mb-[68px]'>
-            <ul className='flex items-center gap-[128px] max-sm:gap-[30px] justify-around max-sm:justify-center bg-white rounded-[46px] pt-[51px] max-sm:pt-[19px] px-[78px] max-sm:px-[56px] pb-[86px] max-sm:pb-[19px] relative max-sm:w-[218px] max-sm:flex-col max-sm:h-[602px]'>
+        <section className='mt-[60px] mb-[100px] max-sm:px-[80px] max-sm:mb-[68px] max-sm:flex max-sm:justify-center'>
+            <ul className='flex items-center gap-[128px] max-sm:gap-[30px] justify-around max-sm:justify-center bg-white rounded-[46px] pt-[51px] max-sm:pt-[19px] px-[78px] max-sm:px-[56px] pb-[86px] max-sm:pb-[50px] relative max-sm:w-[218px] max-sm:flex-col max-sm:h-[602px] max-sm:space-y-[30px]'>
                 {items.map(item => (
                     <li key={item.id} className='w-[220px] max-sm:w-[133px] h-[290px] max-sm:h-[133px] text-center'>
                         <img src={item.icon} alt="icon" className='max-sm:w-[127px] max-sm:h-[133px]' />

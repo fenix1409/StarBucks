@@ -4,9 +4,9 @@ import Hero from '../sections/Hero'
 
 const Carousel = () => {
     return (
-        <div className='px-[130px]'>
+        <div className='px-[130px] max-sm:px-[25px]'>
             <Header />
-            <Hero />
+            {/* <Hero /> */}
         </div>
     )
 }

@@ -1,8 +1,7 @@
 import React from 'react'
 import Rocket from '../../../public/icons/Rocket.svg'
 import Money from '../../../public/icons/Money.svg'
-import Heart from '../../../public/icons/Heart.svg'
-import { GradientHeart, HaveIcon, HaveMobile } from '../../../public/icons/Icons'
+import { HaveIcon, HaveMobile } from '../../../public/icons/Icons'
 
 const Have = () => {
     const items = [

@@ -38,8 +38,8 @@ const Hero = () => {
                     ))}
                 </ul>
             </div>
-            <img src={Image} alt="image" width={472} height={680} className='relative max-sm:hidden' />
-            <img src={Image} alt="image" width={472} height={680} className='relative sm:hidden mb-[26px]' />
+            <img src={Image} alt="image" width={472} height={680} className='max-sm:hidden' />
+            <img src={Image} alt="image" width={472} height={680} className='sm:hidden mb-[26px]' />
         </section>
     )
 }

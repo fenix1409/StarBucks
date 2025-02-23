@@ -5,9 +5,9 @@ import Close from "../../../public/icons/close-svgrepo-com.svg"
 
 const Header = () => {
     const menus = [
-        { id: 1, name: "Pricing", path: "#" },
-        { id: 2, name: "About", path: "#" },
-        { id: 3, name: "Contact", path: "#" },
+        { id: 1, name: "Home", path: "/" },
+        { id: 2, name: "Select", path: "#" },
+        { id: 3, name: "Shop", path: "#" },
     ]
 
     const [isModalOpen, setIsModalOpen] = useState(false)
@@ -26,11 +26,6 @@ const Header = () => {
                         <Link key={item.id} to={item.path} className="text-lg font-medium text-gray-300 hover:text-white transition" onClick={() => setIsModalOpen(false)}>{item.name}</Link>
                     ))}
                 </ul>
-                <div classNam="mt-6 flex justify-center">
-                    <button className="px-5 py-2 bg-[#D43F6D] text-white rounded-full text-lg font-semibold hover:bg-[#C23460] transition">
-                        Schedule a Demo
-                    </button>
-                </div>
             </div>
         </header>
     )
